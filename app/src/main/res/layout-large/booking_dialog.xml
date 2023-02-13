@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_gravity="center"
+    android:layout_width="700dp"
+    android:layout_height="900dp"
+    android:descendantFocusability="beforeDescendants"
+    android:focusableInTouchMode="true"
+    >
+
+    <LinearLayout
+        android:layout_gravity="center"
+        android:layout_width="700dp"
+        android:layout_height="900dp"
+        android:background="@drawable/bg_dialog"
+        android:orientation="vertical">
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            >
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_marginTop="10dp"
+                android:layout_gravity="top"
+                android:background="@drawable/bg_dialog_booking_top">
+
+            </FrameLayout>
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_marginBottom="10dp"
+                android:layout_gravity="bottom"
+                android:background="@drawable/bg_dialog_booking_bottom">
+
+            </FrameLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/bg_test"
+                android:orientation="vertical">
+
+                <FrameLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp">
+
+                    <TextView
+                        android:id="@+id/textroom_booking"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:text="Booking "
+                        android:textColor="#dddddd"
+                        android:textSize="40dp"
+                        android:textStyle="bold" />
+
+                    <ImageView
+                        android:id="@+id/imgclose_dialog_booking"
+                        android:layout_width="45dp"
+                        android:layout_height="45dp"
+                        android:layout_gravity="end|right"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginRight="20dp"
+                        android:foreground="?android:attr/selectableItemBackground"
+                        android:src="@drawable/close1" />
+                </FrameLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <CalendarView
+                        android:id="@+id/calendar"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:dateTextAppearance="@style/TextAppearance.AppCompat.Large"
+                        android:weekDayTextAppearance="@style/TextAppearance.AppCompat.Large" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:text="TIME"
+                        android:textColor="#ffffff"
+                        android:textSize="30dp"
+                        android:textStyle="bold" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:gravity="center"
+                                android:text="START"
+                                android:textColor="#eeeeee"
+                                android:textSize="20dp" />
+
+                            <TimePicker
+                                android:id="@+id/datePicker_start"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:theme="@style/TextCalendar"
+                                android:descendantFocusability="blocksDescendants"
+                                android:timePickerMode="spinner" />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:gravity="center"
+                                android:text="END"
+                                android:textColor="#eeeeee"
+                                android:textSize="20dp" />
+
+                            <TimePicker
+                                android:id="@+id/datePicker_end"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:theme="@style/TextCalendar"
+                                android:descendantFocusability="blocksDescendants"
+                                android:timePickerMode="spinner" />
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <EditText
+                    android:id="@+id/edtdescription"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:layout_marginLeft="40dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="40dp"
+                    android:background="#ffffff"
+                    android:descendantFocusability="beforeDescendants"
+                    android:focusableInTouchMode="true"
+                    android:foreground="?android:attr/selectableItemBackground"
+                    android:gravity="center"
+                    android:hint="Title and Description"
+                    android:inputType="textMultiLine"
+
+                    android:maxLines="2"
+                    android:paddingLeft="40dp"
+                    android:paddingRight="40dp"
+                    android:singleLine="false"
+                    android:textColor="#000000"
+                    android:textColorHint="#aaaaaa"
+                    android:textSize="30dp" />
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/btn_confirm_booking"
+                    android:layout_width="230dp"
+                    android:layout_height="60dp"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginBottom="10dp"
+                    android:background="#0C1867"
+                    android:foreground="?android:attr/selectableItemBackground"
+                    app:cardCornerRadius="30dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="#122188"
+                        android:orientation="horizontal">
+
+                        <ImageView
+                            android:layout_width="50dp"
+                            android:layout_height="50dp"
+                            android:layout_gravity="center"
+                            android:layout_marginLeft="10dp"
+                            android:src="@drawable/confirm3" />
+
+                        <TextView
+
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:gravity="center"
+                            android:text="Confirm"
+                            android:textColor="#ffffff"
+                            android:textSize="40dp"
+                            android:textStyle="bold" />
+
+                    </LinearLayout>
+
+                </androidx.cardview.widget.CardView>
+
+            </LinearLayout>
+
+        </FrameLayout>
+
+    </LinearLayout>
+
+
+</LinearLayout>

@@ -1,0 +1,271 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/laundry_wrorld_bg_customer"
+    tools:context="th.co.infinitecorp.www.brm.Fragment.HomeFragment">
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end|right"
+        android:gravity="right"
+        android:textSize="20dp"
+        android:layout_marginRight="15dp"
+        android:textStyle="bold"
+        android:text="INFINITE TECHNOLOGY CORPORATION " />
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:layout_marginBottom="100dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_gravity="center"
+            android:gravity="center">
+
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_marginRight="20dp"
+                android:src="@drawable/meet7" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="ROOM MEETING"
+                android:textColor="#dddddd"
+                android:textSize="40dp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="450dp">
+
+        <View
+
+            android:layout_width="wrap_content"
+            android:layout_height="10dp"
+            android:layout_gravity="top"
+            android:background="#ffffff" />
+
+        <View
+
+            android:layout_width="10dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="left"
+            android:background="#ffffff" />
+
+
+        <View
+
+            android:layout_width="10dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="right"
+            android:background="#ffffff" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+
+                android:orientation="vertical">
+
+                <FrameLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="240dp">
+
+                    <Button
+                        android:id="@+id/CardRoom1"
+                        android:layout_width="280dp"
+                        android:layout_height="230dp"
+                        android:layout_marginTop="5dp"
+                        android:layout_gravity="center"
+                        android:background="#122188"
+                        android:foreground="?android:attr/selectableItemBackground"
+                        android:gravity="center"
+                        android:text="ROOM 1"
+                        android:textSize="40dp" />
+
+                    <View
+                        android:layout_width="10dp"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="right"
+                        android:layout_marginLeft="10dp"
+                        android:background="#ffffff" />
+                </FrameLayout>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="10dp"
+                    android:background="#ffffff" />
+
+                <FrameLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp">
+
+                    <Button
+                        android:id="@+id/CardRoom2"
+                        android:layout_width="280dp"
+                        android:layout_height="220dp"
+                        android:layout_gravity="center"
+                        android:background="#122188"
+                        android:gravity="center"
+                        android:text="ROOM 2"
+                        android:foreground="?android:attr/selectableItemBackground"
+                        android:textSize="40dp" />
+
+                    <View
+                        android:layout_width="10dp"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="right"
+                        android:background="#ffffff" />
+                </FrameLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="160dp"
+                android:layout_height="wrap_content"
+
+                android:orientation="horizontal"></LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="340dp"
+
+                android:orientation="vertical">
+
+                <FrameLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="160dp">
+
+                    <Button
+                        android:id="@+id/CardRoom3"
+                        android:layout_width="match_parent"
+                        android:layout_height="150dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="10dp"
+                        android:background="#122188"
+                        android:foreground="?android:attr/selectableItemBackground"
+                        android:text="ROOM 3"
+                        android:textSize="40dp" />
+
+                    <View
+                        android:layout_width="10dp"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="left"
+                        android:background="#ffffff" />
+                </FrameLayout>
+
+                <View
+
+                    android:layout_width="match_parent"
+                    android:layout_height="10dp"
+                    android:background="#ffffff" />
+
+                <FrameLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="160dp">
+
+                    <Button
+                        android:id="@+id/CardRoom4"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="10dp"
+                        android:background="#122188"
+                        android:foreground="?android:attr/selectableItemBackground"
+                        android:text="ROOM 4"
+                        android:textSize="40dp" />
+
+                    <View
+                        android:layout_width="10dp"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="left"
+                        android:background="#ffffff" />
+
+                </FrameLayout>
+
+                <View
+
+                    android:layout_width="match_parent"
+                    android:layout_height="10dp"
+                    android:background="#ffffff" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+    </FrameLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:orientation="horizontal">
+
+        <FrameLayout
+            android:layout_width="300dp"
+            android:layout_height="match_parent">
+
+            <View
+                android:layout_width="wrap_content"
+                android:layout_height="10dp"
+                android:background="#ffffff" />
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="160dp"
+            android:layout_height="match_parent">
+
+            <View
+                android:layout_width="10dp"
+                android:layout_height="match_parent"
+                android:layout_gravity="left"
+                android:background="#ffffff" />
+
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="Stair"
+                android:textColor="#ffffff"
+                android:textSize="40dp" />
+
+            <View
+                android:layout_width="10dp"
+                android:layout_height="match_parent"
+                android:layout_gravity="right"
+                android:background="#ffffff" />
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="360dp"
+            android:layout_height="match_parent">
+
+            <View
+
+                android:layout_width="match_parent"
+                android:layout_height="10dp"
+                android:background="#ffffff" />
+        </FrameLayout>
+    </LinearLayout>
+
+
+</LinearLayout>

@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="40dp"
+    android:background="#ffffff">
+
+
+    <TextView
+        android:id="@+id/time_text_8_00"
+        android:layout_width="50dp"
+        android:layout_height="40dp"
+
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:text="08:00"
+        android:textColor="#dddddd"
+        android:textSize="15dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/time_text_8_30"
+        android:layout_width="50dp"
+        android:layout_height="40dp"
+
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:text="08:30"
+        android:textColor="#dddddd"
+        android:textSize="15dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/time_text_9_00"
+        android:layout_width="50dp"
+        android:layout_height="40dp"
+
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:text="9:00"
+        android:textColor="#dddddd"
+        android:textSize="15dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/time_text_9_30"
+        android:layout_width="50dp"
+        android:layout_height="40dp"
+
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:text="9:30"
+        android:textColor="#dddddd"
+        android:textSize="15dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/time_text_10_00"
+        android:layout_width="50dp"
+        android:layout_height="40dp"
+
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:text="10:00"
+        android:textColor="#dddddd"
+        android:textSize="15dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/time_text_10_30"
+        android:layout_width="50dp"
+        android:layout_height="40dp"
+
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:text="10:30"
+        android:textColor="#dddddd"
+        android:textSize="15dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/time_text_11_00"
+        android:layout_width="50dp"
+        android:layout_height="40dp"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:text="11:00"
+        android:textColor="#dddddd"
+        android:textSize="15dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/time_text_11_30"
+        android:layout_width="50dp"
+        android:layout_height="40dp"
+
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:text="11:30"
+        android:textColor="#dddddd"
+        android:textSize="15dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/time_text_12_00"
+        android:layout_width="50dp"
+        android:layout_height="40dp"
+
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:text="12:00"
+        android:textColor="#dddddd"
+        android:textSize="15dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/time_text_12_30"
+        android:layout_width="50dp"
+        android:layout_height="40dp"
+
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:text="12:30"
+        android:textColor="#dddddd"
+        android:textSize="15dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/time_text_13_00"
+        android:layout_width="50dp"
+        android:layout_height="40dp"
+
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:text="13:00"
+        android:textColor="#dddddd"
+        android:textSize="15dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/time_text_13_30"
+        android:layout_width="50dp"
+        android:layout_height="40dp"
+
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:text="13:30"
+        android:textColor="#dddddd"
+        android:textSize="15dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/time_text_14_00"
+        android:layout_width="50dp"
+        android:layout_height="40dp"
+
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:text="14:00"
+        android:textColor="#dddddd"
+        android:textSize="15dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/time_text_14_30"
+        android:layout_width="50dp"
+        android:layout_height="40dp"
+
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:text="14:30"
+        android:textColor="#dddddd"
+        android:textSize="15dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/time_text_15_00"
+        android:layout_width="50dp"
+        android:layout_height="40dp"
+
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:text="15:00"
+        android:textColor="#dddddd"
+        android:textSize="15dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/time_text_15_30"
+        android:layout_width="50dp"
+        android:layout_height="40dp"
+
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:text="15:30"
+        android:textColor="#dddddd"
+        android:textSize="15dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/time_text_16_00"
+        android:layout_width="50dp"
+        android:layout_height="40dp"
+
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:text="16:00"
+        android:textColor="#dddddd"
+        android:textSize="15dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/time_text_16_30"
+        android:layout_width="50dp"
+        android:layout_height="40dp"
+
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:text="16:30"
+        android:textColor="#dddddd"
+        android:textSize="15dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/time_text_17_00"
+        android:layout_width="50dp"
+        android:layout_height="40dp"
+
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:text="17:00"
+        android:textColor="#dddddd"
+        android:textSize="15dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/time_text_17_30"
+        android:layout_width="50dp"
+        android:layout_height="40dp"
+
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:text="17:30"
+        android:textColor="#dddddd"
+        android:textSize="15dp"
+        android:textStyle="bold" />
+
+
+</LinearLayout>

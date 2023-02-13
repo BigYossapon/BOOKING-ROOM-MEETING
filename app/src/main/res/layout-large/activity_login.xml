@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:descendantFocusability="beforeDescendants"
+    android:focusableInTouchMode="true"
+    android:background="@drawable/laundry_wrorld_bg_customer">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="BOOKING ROOM MEETING"
+        android:textSize="50dp"
+        android:textColor="#ffffff"
+        android:textStyle="bold"
+        android:gravity="center"
+
+        android:layout_marginTop="20dp"
+
+        android:layout_gravity="center"
+        />
+
+    <TextView
+
+        android:textStyle="bold"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end|right"
+        android:gravity="right"
+        android:layout_marginRight="100dp"
+        android:textSize="20dp"
+        android:text="INFINITE TECHNOLOGY CORPORATION " />
+
+    <ImageView
+        android:layout_marginTop="45dp"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        app:srcCompat="@drawable/meeting" />
+
+    <EditText
+        android:id="@+id/login_username"
+        android:layout_marginTop="60dp"
+        android:layout_marginLeft="120dp"
+        android:layout_marginRight="120dp"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:inputType="text"
+        android:textSize="40dp"
+        android:background="@drawable/corners_spiner"
+        android:textColor="#000000"
+        android:paddingLeft="40dp"
+        android:paddingRight="40dp"
+        android:hint="Username"
+        android:textColorHint="#888888"
+        />
+
+    <FrameLayout
+        android:layout_width="fill_parent"
+        android:layout_height="60dp"
+        android:layout_marginLeft="120dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginRight="120dp"
+        android:background="@drawable/corners_spiner"
+        android:foreground="?android:attr/selectableItemBackground">
+
+        <EditText
+            android:id="@+id/login_password"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:textSize="40dp"
+            android:background="@drawable/corners_spiner"
+            android:hint="Password"
+            android:inputType="textPassword"
+            android:paddingLeft="40dp"
+            android:paddingRight="40dp"
+            android:textColor="#000000"
+            android:textColorHint="#888888"
+
+            />
+
+        <ImageView
+            android:id="@+id/showhide_pass"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_marginRight="10dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:alpha=".5"
+            android:foreground="?android:attr/selectableItemBackground"
+            android:layout_gravity="right"
+            android:onClick="ShowHidePass"
+            android:padding="5dp"
+            android:src="@drawable/hidepass" />
+    </FrameLayout>
+
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/loginbtn"
+        android:layout_marginTop="30dp"
+        android:layout_width="200dp"
+        android:layout_height="80dp"
+        android:drawableLeft="@drawable/login"
+        android:foreground="?android:attr/selectableItemBackground"
+        android:text="Login"
+        android:layout_gravity="center"
+        android:textColor="#ffffff"
+        app:cardCornerRadius="30dp"
+        android:textSize="20dp" >
+
+        <LinearLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#122188"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:layout_marginLeft="20dp"
+                android:src="@drawable/login" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:text="Login"
+                android:textColor="#ffffff"
+                android:textSize="40dp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+
+
+
+
+
+    <CheckBox
+        android:id="@+id/rememberbox"
+        android:layout_marginTop="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:buttonTint="#EEEEEE"
+        android:layout_gravity="center"
+        android:textColor="#EEEEEE"
+        android:textStyle="bold"
+        android:textSize="15dp"
+        android:text="Remember me"
+        android:layout_centerHorizontal="true"
+        android:scaleX="2"
+        android:scaleY="2"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="5dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <TextView
+            android:textSize="30dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textColor="#EEEEEE"
+            android:textStyle="bold"
+
+            android:text="Don't have username , please  " />
+
+        <TextView
+            android:id="@+id/textregister"
+            android:textSize="30dp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="register"
+            android:textColor="#1555bb"/>
+    </LinearLayout>
+
+</LinearLayout>

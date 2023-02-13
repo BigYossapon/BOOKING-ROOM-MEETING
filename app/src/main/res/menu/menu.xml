@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+        <item
+            android:id="@+id/menu_home_id"
+            android:icon="@drawable/homeicon2"
+            android:title="HOME"
+            />
+        <item
+            android:id="@+id/menu_profile_id"
+            android:icon="@drawable/loginicon"
+            android:title="MY PROFILE"
+            />
+        <item
+            android:id="@+id/menu_detail_id"
+            android:icon="@drawable/book2edit"
+            android:title="DETAIL BOOKING"
+            />
+        <item
+            android:id="@+id/menu_logout_id"
+            android:icon="@drawable/outedit"
+            android:title="LOGOUT"
+            />
+
+
+
+</menu>

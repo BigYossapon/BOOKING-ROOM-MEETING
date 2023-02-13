@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:descendantFocusability="beforeDescendants"
+    android:focusableInTouchMode="true"
+    android:background="@drawable/laundry_wrorld_bg_customer">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="BOOKING ROOM MEETING"
+        android:textSize="25dp"
+        android:textColor="#ffffff"
+        android:textStyle="bold"
+        android:gravity="center"
+
+        android:layout_marginTop="15dp"
+
+        android:layout_gravity="center"
+        />
+
+    <TextView
+
+        android:textStyle="bold"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end|right"
+        android:gravity="right"
+        android:layout_marginRight="15dp"
+        android:text="INFINITE TECHNOLOGY CORPORATION " />
+
+    <ImageView
+        android:layout_marginTop="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:src="@drawable/meeting" />
+
+    <EditText
+        android:id="@+id/login_username"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="60dp"
+        android:layout_marginRight="60dp"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:inputType="text"
+        android:background="@drawable/corners_spiner"
+        android:textColor="#000000"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:hint="Username"
+        android:textSize="20dp"
+        android:textColorHint="#888888"
+        />
+
+    <FrameLayout
+        android:layout_width="fill_parent"
+        android:layout_height="40dp"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="60dp"
+        android:background="@drawable/corners_spiner"
+        android:foreground="?android:attr/selectableItemBackground">
+
+        <EditText
+            android:id="@+id/login_password"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:textSize="20dp"
+            android:background="@drawable/corners_spiner"
+            android:hint="Password"
+            android:inputType="textPassword"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:textColor="#000000"
+            android:textColorHint="#888888"
+            />
+
+        <ImageView
+            android:id="@+id/showhide_pass"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginRight="5dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:alpha=".5"
+            android:layout_gravity="right"
+            android:onClick="ShowHidePass"
+            android:padding="5dp"
+            android:src="@drawable/hidepass" />
+    </FrameLayout>
+
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/loginbtn"
+        android:layout_marginTop="20dp"
+        android:layout_width="110dp"
+        android:layout_height="50dp"
+        android:drawableLeft="@drawable/login"
+        android:foreground="?android:attr/selectableItemBackground"
+        android:text="Login"
+        android:layout_gravity="center"
+        android:textColor="#ffffff"
+        app:cardCornerRadius="30dp"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#122188"
+            android:layout_gravity="center"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_gravity="center"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:src="@drawable/login" />
+
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:text="Login"
+                android:textColor="#ffffff"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+
+
+
+
+
+    <CheckBox
+        android:id="@+id/rememberbox"
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:buttonTint="#EEEEEE"
+        android:layout_gravity="center"
+        android:textColor="#EEEEEE"
+        android:textStyle="bold"
+        android:text="Remember me" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <TextView
+            android:textSize="15dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textColor="#EEEEEE"
+            android:textStyle="bold"
+            android:text="Don't have username , please  " />
+
+        <TextView
+            android:id="@+id/textregister"
+            android:textSize="15dp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="register"
+            android:textColor="#1555bb"/>
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,306 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:descendantFocusability="beforeDescendants"
+    android:focusableInTouchMode="true"
+    android:background="@drawable/laundry_wrorld_bg_customer">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        >
+
+        <ImageView
+            android:id="@+id/drawerbtn_profile"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="10dp"
+            android:foreground="?android:attr/selectableItemBackground"
+            android:layout_marginTop="10dp"
+            android:src="@drawable/detail1" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:text="BOOKING ROOM MEETING"
+            android:textColor="#ffffff"
+            android:textSize="50dp"
+
+            android:textStyle="bold" />
+    </FrameLayout>
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end|right"
+        android:gravity="right"
+        android:textStyle="bold"
+        android:layout_marginRight="15dp"
+        android:textSize="20dp"
+        android:text="INFINITE TECHNOLOGY CORPORATION " />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="10dp"
+        android:layout_gravity="center">
+
+        <ImageView
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_marginRight="5dp"
+            android:layout_gravity="left|start"
+            android:src="@drawable/profiless" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:text="MY PROFILE"
+            android:textColor="#dddddd"
+            android:textSize="40dp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+
+
+        <EditText
+            android:id="@+id/profile_name"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:singleLine="true"
+            android:layout_marginLeft="120dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="120dp"
+            android:background="@drawable/corners_spiner"
+            android:hint="Name"
+            android:inputType="text"
+            android:paddingLeft="40dp"
+            android:paddingRight="40dp"
+            android:textColor="#000000"
+            android:textColorHint="#888888"
+            android:textSize="40dp" />
+
+
+
+    <EditText
+        android:id="@+id/profile_phone"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="120dp"
+        android:layout_marginRight="120dp"
+        android:maxLength="10"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:textSize="40dp"
+        android:inputType="numberDecimal|number"
+        android:background="@drawable/corners_spiner"
+        android:textColor="#000000"
+        android:paddingLeft="40dp"
+        android:paddingRight="40dp"
+        android:hint="Phone"
+        android:textColorHint="#888888"
+        />
+
+    <EditText
+        android:id="@+id/profile_email"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="120dp"
+        android:layout_marginRight="120dp"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:inputType="text"
+        android:background="@drawable/corners_spiner"
+        android:textColor="#000000"
+        android:textSize="40dp"
+        android:paddingLeft="40dp"
+        android:paddingRight="40dp"
+        android:hint="Email"
+        android:textColorHint="#888888"
+        />
+
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="120dp"
+        android:layout_marginRight="120dp"
+        android:layout_gravity="center"
+        app:cardCornerRadius="30dp">
+
+        <Spinner
+            android:id="@+id/profile_spinner_department"
+            android:layout_width="match_parent"
+            android:background="#555555"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:foreground="?android:attr/selectableItemBackground"
+            android:layout_height="60dp" />
+
+    </androidx.cardview.widget.CardView>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="120dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="120dp">
+
+        <EditText
+            android:id="@+id/profile_username"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:background="@drawable/corners_spiner"
+            android:hint="Username"
+            android:inputType="text"
+            android:paddingLeft="40dp"
+            android:paddingRight="40dp"
+            android:textColor="#000000"
+            android:textColorHint="#888888"
+            android:textSize="40dp" />
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/passwordshow"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_gravity="center|end"
+            android:background="#0D196A"
+            app:cardCornerRadius="35dp">
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#122188">
+
+                <ImageView
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginRight="5dp"
+                    android:src="@drawable/changepass" />
+            </FrameLayout>
+
+        </androidx.cardview.widget.CardView>
+    </FrameLayout>
+
+    <EditText
+        android:id="@+id/profile_oldpassword"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="120dp"
+        android:layout_marginRight="120dp"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:textSize="40dp"
+        android:inputType="textPassword"
+        android:background="@drawable/corners_spiner"
+        android:textColor="#000000"
+        android:paddingLeft="40dp"
+        android:paddingRight="40dp"
+        android:visibility="gone"
+        android:hint="Old Password"
+        android:textColorHint="#888888"
+        />
+
+    <EditText
+        android:id="@+id/profile_newpassword"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="120dp"
+        android:layout_marginRight="120dp"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:inputType="textPassword"
+        android:background="@drawable/corners_spiner"
+        android:textColor="#000000"
+        android:paddingLeft="40dp"
+        android:textSize="40dp"
+        android:paddingRight="40dp"
+        android:hint="New Password"
+        android:visibility="gone"
+        android:textColorHint="#888888"
+        />
+
+    <FrameLayout
+        android:id="@+id/profile_layout_renewpassword"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginLeft="120dp"
+        android:layout_marginRight="120dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="15dp"
+        android:visibility="gone"
+        >
+
+        <EditText
+            android:id="@+id/profile_renewpassword"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:textSize="40dp"
+            android:inputType="textPassword"
+            android:background="@drawable/corners_spiner"
+            android:textColor="#000000"
+            android:paddingLeft="40dp"
+            android:paddingRight="40dp"
+            android:hint="Re - New Password"
+            android:textColorHint="#888888"
+            />
+
+        <ImageView
+            android:id="@+id/img_checkpass_profile"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_marginRight="20dp"
+            android:layout_gravity="right"
+            android:src="@drawable/correct"
+            android:visibility="invisible" />
+
+    </FrameLayout>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/confirm_profile"
+        android:layout_marginTop="20dp"
+        android:layout_width="240dp"
+        android:layout_height="80dp"
+        app:cardCornerRadius="30dp"
+        android:layout_gravity="center"
+        android:foreground="?android:attr/selectableItemBackground">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:background="#122188">
+
+            <ImageView
+                android:layout_gravity="center"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="20dp"
+                android:src="@drawable/confirm3" />
+
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:textColor="#ffffff"
+                android:layout_gravity="center"
+                android:textSize="40dp"
+                android:textStyle="bold"
+                android:text="Confirm" />
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+</LinearLayout>
